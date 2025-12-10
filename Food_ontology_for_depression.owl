@@ -146,9 +146,6 @@ DataProperty: <https://github.com/pimsupa/Food_ontology_for_depression#has_name_
 DataProperty: <https://github.com/pimsupa/Food_ontology_for_depression#menu_data>
 
     
-
-    
-    
 Class: <http://purl.obolibrary.org/obo/NCBITaxon_16751>
 
     Annotations: 
@@ -8322,11 +8319,131 @@ Class: <https://github.com/pimsupa/Food_ontology_for_depression#zinc_food>
         <https://github.com/pimsupa/Food_ontology_for_depression#trace_mineral_food>
     
     
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#anchovy_whole>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Stolephorus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "whole")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_whole>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#ant_egg>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Oecophylla")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "egg")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#insect_egg>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#chicken_blood>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Gallus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "blood")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_blood>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#chicken_egg>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Gallus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "egg")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_egg>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#chicken_meat>
+
+    EquivalentTo: 
+        ((<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "breast") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "drumstick") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "thigh") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "wing"))
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Gallus")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_meat>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#chicken_offal>
+
+    EquivalentTo: 
+        ((<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "gizzard") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "heart") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "intestine") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "liver"))
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Gallus")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_offal>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#chicken_skin>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Gallus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "skin")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_skin>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#cow_blood>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Bos")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "blood")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_blood>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#cow_meat>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Bos")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "Longissimus dorsi")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_meat>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#cow_milk>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Bos")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "milk")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_milk>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#cow_offal>
+
+    EquivalentTo: 
+        ((<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "brain") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "heart") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "kidney") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "liver") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "lung") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "tongue,"))
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Bos")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_offal>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#cow_skin>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Bos")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "skin")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_skin>
+    
+    
 Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#duck_blood>
 
     EquivalentTo: 
         (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Anas")
-         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "Blood")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "blood")
     
     SubClassOf: 
         <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_blood>
@@ -8336,40 +8453,178 @@ Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#duck_egg>
 
     EquivalentTo: 
         (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Anas")
-         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "Egg")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "egg")
     
     SubClassOf: 
         <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_egg>
-    
-    
-Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#duck_fat>
-
-    EquivalentTo: 
-        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Anas")
-         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "Fat")
-    
-    SubClassOf: 
-        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_fat>
-    
-    
-Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#duck_gizzard>
-
-    EquivalentTo: 
-        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Anas")
-         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "Gizzard")
-    
-    SubClassOf: 
-        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_offal>
     
     
 Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#duck_meat>
 
     EquivalentTo: 
         (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Anas")
-         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "Meat")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "meat")
     
     SubClassOf: 
         <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_meat>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#duck_offal>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Anas")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "liver")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_offal>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_food_product>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/Food_ontology_for_depression#animal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_offal>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_roe>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_whole>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#insect_egg>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#insect_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#insect_food_product>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/Food_ontology_for_depression#animal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mackerel_offal>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Rastrelliger")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "maw")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_offal>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_blood>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_bone>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/Food_ontology_for_depression#animal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_meat>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_milk>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_offal>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_skin>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#mullet_roe>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Valamugil")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "roe")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#fish_roe>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#pig_blood>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Sus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "blood")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_blood>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#pig_bone>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Sus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "bone")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_bone>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#pig_meat>
+
+    EquivalentTo: 
+        ((<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "leg") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "rib") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "shoulder") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "tenderloin"))
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Sus")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_meat>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#pig_offal>
+
+    EquivalentTo: 
+        ((<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Sus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "brain")) or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "heart") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "kidney") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "liver") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "lung") or (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "pancreas")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_offal>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#pig_skin>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Sus")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "skin")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#mammal_skin>
     
     
 Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_blood>
@@ -8379,12 +8634,6 @@ Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_bloo
     
     
 Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_egg>
-
-    SubClassOf: 
-        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_food_product>
-    
-    
-Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_fat>
 
     SubClassOf: 
         <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_food_product>
@@ -8406,6 +8655,22 @@ Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_offa
 
     SubClassOf: 
         <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_skin>
+
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_food_product>
+    
+    
+Class: <https://github.com/pimsupa/food_ontology_for_depression.owl#quail_egg>
+
+    EquivalentTo: 
+        (<https://github.com/pimsupa/Food_ontology_for_depression#biologically_classified_as> value "Coturnix")
+         and (<https://github.com/pimsupa/Food_ontology_for_depression#has_eng_description> value "egg")
+    
+    SubClassOf: 
+        <https://github.com/pimsupa/food_ontology_for_depression.owl#poultry_egg>
     
     
 Individual: <https://github.com/pimsupa/Food_ontology_for_depression#AcaciaPennata(Cha-om),Leaf>
